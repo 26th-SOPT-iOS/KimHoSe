@@ -1,2 +1,3 @@
 # KimHoSe
-김호세
+HoseKIM
+
