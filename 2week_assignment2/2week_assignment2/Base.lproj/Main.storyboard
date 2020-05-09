@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_week_assignment2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7AL-FV-MGp">
+                                <rect key="frame" x="0.0" y="88" width="375" height="1028"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qe4-sr-yFm">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1153"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oursoptBgImg" translatesAutoresizingMaskIntoConstraints="NO" id="tMh-3l-EJ3">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="abQ-rC-td3">
+                                                <rect key="frame" x="28" y="242" width="319" height="888"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="oPY-qd-Q8j">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="198"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9188465425230637911275922235726328076697600N" translatesAutoresizingMaskIntoConstraints="NO" id="GCW-BB-oED">
+                                                                <rect key="frame" x="0.0" y="0.0" width="148" height="198"/>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9213383125230634377942948539378523368849408N" translatesAutoresizingMaskIntoConstraints="NO" id="mEq-Qk-XxS">
+                                                                <rect key="frame" x="171" y="0.0" width="148" height="198"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="jHs-rf-7QF">
+                                                        <rect key="frame" x="0.0" y="230" width="319" height="198"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9235840225230627344610312982063520952090624N" translatesAutoresizingMaskIntoConstraints="NO" id="xrv-c1-3X6">
+                                                                <rect key="frame" x="0.0" y="0.0" width="148" height="198"/>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9229480325230625777943802058411231781322752N" translatesAutoresizingMaskIntoConstraints="NO" id="RLy-rk-Oqs">
+                                                                <rect key="frame" x="171" y="0.0" width="148" height="198"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="yet-A5-u2l">
+                                                        <rect key="frame" x="0.0" y="460" width="319" height="198"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9213470125230618377944548520091676373417984N" translatesAutoresizingMaskIntoConstraints="NO" id="u4B-N4-xba">
+                                                                <rect key="frame" x="0.0" y="0.0" width="148" height="198"/>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9298934625230618844611168856475911587889152N" translatesAutoresizingMaskIntoConstraints="NO" id="ifs-8K-5ZQ">
+                                                                <rect key="frame" x="171" y="0.0" width="148" height="198"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="5mB-sY-ZqQ">
+                                                        <rect key="frame" x="0.0" y="690" width="319" height="198"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9188465425230637911275922235726328076697600N" translatesAutoresizingMaskIntoConstraints="NO" id="qRU-bJ-jUB">
+                                                                <rect key="frame" x="0.0" y="0.0" width="148" height="198"/>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9213383125230634377942948539378523368849408N" translatesAutoresizingMaskIntoConstraints="NO" id="mtK-WW-fud">
+                                                                <rect key="frame" x="171" y="0.0" width="148" height="198"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="abQ-rC-td3" firstAttribute="leading" secondItem="Qe4-sr-yFm" secondAttribute="leading" constant="28" id="Mtm-01-sCM"/>
+                                            <constraint firstItem="tMh-3l-EJ3" firstAttribute="leading" secondItem="Qe4-sr-yFm" secondAttribute="leading" id="Nio-2V-HMS"/>
+                                            <constraint firstAttribute="trailing" secondItem="tMh-3l-EJ3" secondAttribute="trailing" id="Tg9-2H-03Q"/>
+                                            <constraint firstAttribute="bottom" secondItem="abQ-rC-td3" secondAttribute="bottom" constant="23" id="VXC-Dr-Wtb"/>
+                                            <constraint firstAttribute="trailing" secondItem="abQ-rC-td3" secondAttribute="trailing" constant="28" id="iYV-ZE-7yB"/>
+                                            <constraint firstItem="tMh-3l-EJ3" firstAttribute="top" secondItem="Qe4-sr-yFm" secondAttribute="top" id="icB-IF-pcu"/>
+                                            <constraint firstItem="abQ-rC-td3" firstAttribute="top" secondItem="tMh-3l-EJ3" secondAttribute="bottom" constant="32" id="wCh-uL-gY5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Qe4-sr-yFm" secondAttribute="bottom" id="9Kc-Sl-vNn"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qe4-sr-yFm" secondAttribute="trailing" id="ARE-xI-IPU"/>
+                                    <constraint firstItem="Qe4-sr-yFm" firstAttribute="top" secondItem="7AL-FV-MGp" secondAttribute="top" id="c5L-CW-AY9"/>
+                                    <constraint firstItem="Qe4-sr-yFm" firstAttribute="leading" secondItem="7AL-FV-MGp" secondAttribute="leading" id="xxB-Ih-z6P"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7AL-FV-MGp" secondAttribute="bottom" id="5o9-Br-xSY"/>
+                            <constraint firstItem="7AL-FV-MGp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y8C-AA-Rhq"/>
+                            <constraint firstItem="7AL-FV-MGp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="88" id="fbb-DK-mS6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7AL-FV-MGp" secondAttribute="trailing" id="fe1-LU-qax"/>
+                            <constraint firstItem="Qe4-sr-yFm" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" priority="250" id="iWA-6h-bbH"/>
+                            <constraint firstItem="Qe4-sr-yFm" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="upZ-JH-XTo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Ps-9b-fuh"/>
+                    <size key="freeformSize" width="375" height="1150"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="90"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="l4G-Gz-ajI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="k78-qv-275" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VkP-r2-Yu8">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oZ5-L7-WrS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-771.01449275362324" y="139.95535714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="9188465425230637911275922235726328076697600N" width="148" height="198"/>
+        <image name="9213383125230634377942948539378523368849408N" width="148" height="198"/>
+        <image name="9213470125230618377944548520091676373417984N" width="148" height="198"/>
+        <image name="9229480325230625777943802058411231781322752N" width="148" height="198"/>
+        <image name="9235840225230627344610312982063520952090624N" width="148" height="198"/>
+        <image name="9298934625230618844611168856475911587889152N" width="148" height="198"/>
+        <image name="oursoptBgImg" width="375" height="210"/>
+    </resources>
+</document>
